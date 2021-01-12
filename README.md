@@ -1,6 +1,6 @@
 # Title
 
-Simple (or clever and funny?) description
+Elite Qualifier Project
 
 ## Table of Contents
 
