@@ -12,7 +12,7 @@ Elite Qualifier Project
 
 ## Background
 
-This is why this application exists.
+This  is a chatbot program.
 
 ## Install
 
@@ -20,6 +20,6 @@ These are the steps to setup your local environment to run this application.
 
 ## Usage
 
-These are the steps to use the application or interact with it.
+The user says something and the code will respond.
 
 ### Any optional sections
