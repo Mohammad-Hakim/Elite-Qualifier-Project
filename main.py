@@ -1,6 +1,5 @@
 #Chatbot
 import random
-import unittest
 
 #Responses
 def chatbox_responses(user_input):
