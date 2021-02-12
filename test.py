@@ -1,10 +1,11 @@
 from main import ranking
 import unittest
 
-class TestStringMethods(unittest.TestCase):
+class TestMethods(unittest.TestCase):
 
     def test_ranking(self):
-        self.assertTrue(ranking.isDigit())
+        rank = 8
+        self.assertTrue(ranking(str(rank)).isdigit())
 
 
 if __name__ == '__main__':

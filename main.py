@@ -8,14 +8,14 @@ def chatbox_responses(user_input):
 #Categories
 categories = ["Travel", "Sports", "General"]
 #Ranking
-def ranking():
-  ranking = input("On a scale of 1 to 10, how would you rank me?\n")
-  if int(ranking) < 8:
+def ranking(user_input):
+  if int(user_input) < 8:
     input("How can I improve?\n")
-  elif int(ranking) >= 8:
+  elif int(user_input) >= 8:
     print("Thanks, I think I'm pretty great too.\n")
+  return user_input
 #Script
-def script():
+#def script():
   exit = "x"
   print("\n")
   print("\n")
@@ -30,7 +30,8 @@ def script():
     input("Nice grammer.\n")
   else:
     print("No one cares.\n")
-  ranking()
+  rank = input("On a scale of 1 to 10, how would you rank me?\n")
+  ranking(rank)
   travel = input("Where would you like to go?\n")
   print("I hear that's a nice place.\n")
   while answer != exit:
@@ -55,4 +56,4 @@ def script():
       input("Why do you want to go there?\n")
       input("What would you do when you get there?\n")
 
-script()
+#script()
